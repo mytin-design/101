@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* global styles */
+
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --main-dark-blue: hsl(217, 54%, 11%);
+    --card-dark-blue: hsl(216, 50%, 16%);
+    --line-dark-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color:var(--main-dark-blue);
+    padding: 0;
+    margin: 0;
+    color: var(--White);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 800px;
+    border-radius: .2pc;
+    background-color: var(--card-dark-blue);
+    padding: 25px;
+}
+
+
+body > .card {
+    margin: 90px auto;
+}
+
+.text {
+    width: 100%;
+}
+
+p {
+    color: var(--soft-blue);
+}
+.builder {
+    margin-top: 10px;
+    width: 90%;
+    height: 600px;
+    border-radius: .2pc;
+}
+
+.top {
+    color: var(--White);
+}
+
+
+.equilibrium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5pc;
+    color: var(--Cyan);
+}
+
+.clock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5pc;
+    color: var(--soft-blue);
+}
+
+#span:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.builder:hover {
+    cursor: pointer;
+}
+
+
+.name {
+    color: var(--White);
+}
+.inner-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+    width: 100%;
+    height: 100px;
+}
+
+.ava {
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
